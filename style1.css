@@ -8,6 +8,14 @@
 body {
   font-family: sans-serif;
   color: #13323D;
+  background-image: url(images/main.png) no-repeat center center fixed;
+  height: 100vh;
+  background-size: cover; 
+  position: relative;
+  padding: 0;
+  margin: 0;
+ 
+  
 }
 
 /* Nagłówek (header) */
@@ -17,13 +25,14 @@ header {
   left: 0;
   width: 100%;
   padding: 20px 40px;
-  background-color: #13323D;
+  background-color: rgba(19, 50, 61, 0.5);
   color: white;
   transition: background-color 0.3s ease, box-shadow 0.3s ease, padding 0.3s ease;
   z-index: 999;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
 
 }
 
@@ -36,7 +45,7 @@ header.scrolled {
 
 /* Logo */
 .logo {
-  height: 60px;
+  height: 8rem;
   transition: height 0.3s ease;
   margin-left: 10px;
 }
@@ -100,7 +109,7 @@ main {
 
 .main2{
   width: 100%;
-  background-color: black;
+  background-color: white;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -150,3 +159,41 @@ text-decoration: line-through;
   scale: 1.2;
 }
 
+#footermain{
+  background-color: #13323D;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer1{
+  background-color: #13323D;
+  width: 20rem;
+  padding: 20px;
+  color: #D32F2F;
+}
+
+.footer1 a{
+  text-decoration: none;
+  color: #D32F2F;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.footer1 a:hover{
+  transform: scale(1.2);
+  text-decoration: underline;
+  color: white;
+}
+
+.footer1 a.active{
+  color: white;
+  font-weight: 700;
+}
+
+.footer1 img{
+  width: 18rem;
+  
+}
