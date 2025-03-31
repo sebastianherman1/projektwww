@@ -7,6 +7,7 @@
 
 body {
   font-family: sans-serif;
+  color: #13323D;
 }
 
 /* Nagłówek (header) */
@@ -16,18 +17,19 @@ header {
   left: 0;
   width: 100%;
   padding: 20px 40px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #13323D;
   color: white;
   transition: background-color 0.3s ease, box-shadow 0.3s ease, padding 0.3s ease;
   z-index: 999;
   display: flex;
   align-items: center;
   justify-content: space-between;
+
 }
 
 /* Nagłówek po scrollu */
 header.scrolled {
-  background-color: #000;
+  background-color: #13323D;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
   padding: 10px 40px;
 }
@@ -86,3 +88,65 @@ main {
     display: none;
   }
 }
+
+.gora{
+  text-align: center;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+.main2{
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 10px;
+  gap: 30px;
+}
+
+.main3{
+  width: 600px;
+  background-color: rgba(245, 245, 245, 1) !important;
+  color: #13323D;
+  padding: 3rem 3rem ; 
+  
+  
+  
+
+
+}
+
+.main3 h2{
+  text-align: left;
+}
+
+.main3 ul{
+  list-style: none; 
+}
+
+.main3 p{
+text-decoration: line-through;
+}
+
+.price{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.price button{
+  margin-left: auto;
+  padding: 5px 20px 5px 20px;
+  border-style: none;
+  background-color: #D32F2F;
+  border-radius: 10px;
+}
+
+.price button:hover{
+  scale: 1.2;
+}
+
