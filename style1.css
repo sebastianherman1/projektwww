@@ -1,19 +1,28 @@
-/* Resetowanie stylów domyślnych */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
 body {
-  font-family: sans-serif;
+  font-family: montserrat;
   color: #13323D;
   background-image: url(images/main.png) no-repeat center center fixed;
-  height: 100vh;
+  height: 30vh;
   background-size: cover; 
   position: relative;
   padding: 0;
   margin: 0;
+  
  
   
 }
@@ -121,7 +130,7 @@ main {
 
 .main3{
   width: 600px;
-  background-color: rgba(245, 245, 245, 1) !important;
+  background-color: rgba(245, 245, 245, 1) ;
   color: #13323D;
   padding: 3rem 3rem ; 
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
@@ -153,11 +162,13 @@ text-decoration: line-through;
 }
 
 .price button{
+  color: white;
   margin-left: auto;
   padding: 5px 20px 5px 20px;
   border-style: none;
   background-color: #D32F2F;
   border-radius: 10px;
+  
 }
 
 .price button:hover{
@@ -173,7 +184,6 @@ text-decoration: line-through;
 }
 
 .footer1{
-  background-color: #13323D;
   width: 20rem;
   padding: 20px;
   color: #D32F2F;
@@ -232,3 +242,4 @@ thead tr:nth-child(2) th {
 tbody tr:nth-child(even) {
   background-color: #f2f2f2;
 }
+

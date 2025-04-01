@@ -1,0 +1,88 @@
+#mainkontakt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 8rem;
+    gap: 8rem;
+  }
+  
+
+
+  .main3kontakt{
+    margin-bottom: 5rem;
+  }
+
+  .message-box {
+    width: 28rem;  
+    height: 150px;  
+    resize: none;  
+    border-radius: 5px; 
+    font-size: 30px;
+}
+
+input{
+  width: 15rem;
+}
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.form-container {
+  
+  width: 100%;
+  max-width: auto;  
+  background-color: rgba(245, 245, 245, 1) ;  
+  padding: 2rem; 
+  border-radius: 8px;  
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+form h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #13323D;
+}
+
+
+label {
+  font-weight: bold;
+  margin-top: 10px;      
+  color: #13323D;
+}
+
+
+input, textarea {
+  width: 100%;  
+  padding: 10px;
+  margin-top: 5px; 
+  margin-bottom: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px;  
+
+}
+
+
+button {
+  width: 60%;
+  padding: 12px;
+  background-color: #D32F2F;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+button:hover {
+  background-color: #962020;
+  scale: 1.1;
+}
+
+.required{
+  color: red;
+}
