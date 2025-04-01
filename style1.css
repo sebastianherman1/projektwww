@@ -109,12 +109,14 @@ main {
 
 .main2{
   width: 100%;
-  background-color: white;
+  
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  padding: 10px 10px;
-  gap: 30px;
+  justify-content: space-between;
+  padding: 2rem 2rem;
+ 
+  
+  
 }
 
 .main3{
@@ -122,6 +124,9 @@ main {
   background-color: rgba(245, 245, 245, 1) !important;
   color: #13323D;
   padding: 3rem 3rem ; 
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+  
+  
   
   
   
@@ -196,4 +201,34 @@ text-decoration: line-through;
 .footer1 img{
   width: 18rem;
   
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  border-radius: 8px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  
+}
+
+thead tr:first-child th {
+  background-color: #D32F2F;
+  color: white;
+  font-size: 18px;
+  padding: 15px;
+}
+
+thead tr:nth-child(2) th {
+  background-color: #13323D;
+  color: white;
+  font-size: 16px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
