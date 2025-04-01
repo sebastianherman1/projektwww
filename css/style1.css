@@ -1,3 +1,6 @@
+@import url('layout/header.css');
+@import url('layout/footer.css');
+
 
 * {
   margin: 0;
@@ -25,71 +28,6 @@ body {
   
  
   
-}
-
-/* Nagłówek (header) */
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 20px 40px;
-  background-color: rgba(19, 50, 61, 0.5);
-  color: white;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease, padding 0.3s ease;
-  z-index: 999;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  
-
-}
-
-/* Nagłówek po scrollu */
-header.scrolled {
-  background-color: #13323D;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-  padding: 10px 40px;
-}
-
-/* Logo */
-.logo {
-  height: 8rem;
-  transition: height 0.3s ease;
-  margin-left: 10px;
-}
-
-/* Logo po scrollu */
-header.scrolled .logo {
-  height: 40px;
-}
-
-/* Nawigacja */
-nav {
-  display: flex;
-  gap: 20px;
-}
-
-/* Linki w menu */
-nav a {
-  text-decoration: none;
-  color: red;
-  font-weight: 500;
-  transition: all 0.2s ease;
-  position: relative;
-}
-
-/* Efekt najechania */
-nav a:hover {
-  transform: scale(1.2);
-  text-decoration: underline;
-  color: white;
-}
-
-/* Aktywna podstrona */
-nav a.active {
-  color: white;
-  font-weight: 700;
 }
 
 /* Główna zawartość */
@@ -173,44 +111,6 @@ text-decoration: line-through;
 
 .price button:hover{
   scale: 1.2;
-}
-
-#footermain{
-  background-color: #13323D;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 20px;
-}
-
-.footer1{
-  width: 20rem;
-  padding: 20px;
-  color: #D32F2F;
-}
-
-.footer1 a{
-  text-decoration: none;
-  color: #D32F2F;
-  font-weight: 500;
-  transition: all 0.2s ease;
-  position: relative;
-}
-
-.footer1 a:hover{
-  transform: scale(1.2);
-  text-decoration: underline;
-  color: white;
-}
-
-.footer1 a.active{
-  color: white;
-  font-weight: 700;
-}
-
-.footer1 img{
-  width: 18rem;
-  
 }
 
 table {
