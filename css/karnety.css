@@ -1,0 +1,78 @@
+/* Responsywność */
+@media (max-width: 768px) {
+    nav {
+      display: none;
+    }
+  }
+  
+  .gora{
+    text-align: center;
+  }
+  
+  .main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+  
+  }
+  
+  .main2{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    row-gap: 4rem;
+    column-gap: 4rem;
+    flex-wrap: wrap;
+   
+    
+    
+  }
+  
+  .main3{
+    width: 600px;
+    background-color: rgba(245, 245, 245, 1) ;
+    color: #13323D;
+    padding: 3rem 3rem ; 
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    
+    
+    
+    
+    
+  
+  
+  }
+  
+  .main3 h2{
+    text-align: left;
+  }
+  
+  .main3 ul{
+    list-style: none; 
+  }
+  
+  .main3 p{
+  text-decoration: line-through;
+  }
+  
+  .price{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  
+  .price button{
+    color: white;
+    margin-left: auto;
+    padding: 5px 20px 5px 20px;
+    border-style: none;
+    background-color: #D32F2F;
+    border-radius: 10px;
+    
+  }
+  
+  .price button:hover{
+    scale: 1.2;
+  }
