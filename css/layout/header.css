@@ -12,15 +12,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 /* Nagłówek po scrollu */
 header.scrolled {
-  background-color: #13323D;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.107);
-  padding: 10px 40px;
 }
 
+header.scrolled nav {
+  font-size: 18px;
+}
 /* Logo */
 .logo {
   height: 8rem;
@@ -37,26 +39,43 @@ header.scrolled .logo {
 nav {
   display: flex;
   gap: 20px;
+  font-size: 20px;
 }
 
 /* Linki w menu */
 nav a {
   text-decoration: none;
-  color: red;
   font-weight: 500;
-  transition: all 0.2s ease;
   position: relative;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
 /* Efekt najechania */
 nav a:hover {
   transform: scale(1.2);
-  text-decoration: underline;
-  color: white;
+  color: #D32F2F;
 }
 
 /* Aktywna podstrona */
 nav a.active {
-  color: white;
+  color: #D32F2F;
   font-weight: 700;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background-color: #D32F2F;
+  transition: width 0.3s ease;
+}
+
+
+nav a:hover::after {
+  width: 100%;
 }
