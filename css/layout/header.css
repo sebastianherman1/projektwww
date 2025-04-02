@@ -1,28 +1,27 @@
-/* Nagłówek (header) */
-#main-header {
+/* Nagłówek (main-header) */
+.main-header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 40px;
-  background-color: rgba(19, 50, 61, 0.785);
+  padding: 40px 50px;
   color: white;
   transition: background-color 0.3s ease, box-shadow 0.3s ease, padding 0.3s ease;
-  z-index: 999;
+  z-index: 2;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Nagłówek po scrollu */
-header.scrolled {
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.107);
+.scrolled .main-header {
+  background-color: rgba(8, 20, 25, 0.87);
+  padding: 20px 60px;
 }
 
 header.scrolled nav {
   font-size: 18px;
 }
+
 /* Logo */
 .logo {
   height: 8rem;
@@ -32,23 +31,22 @@ header.scrolled nav {
 
 /* Logo po scrollu */
 header.scrolled .logo {
-  height: 40px;
+  height: 70px;
 }
 
 /* Nawigacja */
 nav {
   display: flex;
-  gap: 20px;
+  gap: 40px;
   font-size: 20px;
 }
 
 /* Linki w menu */
 nav a {
-  text-decoration: none;
+  text-decoration: none; /* Zbędne powtórzenie usunięte */
   font-weight: 500;
   position: relative;
   color: white;
-  text-decoration: none;
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
@@ -74,7 +72,6 @@ nav a::after {
   background-color: #D32F2F;
   transition: width 0.3s ease;
 }
-
 
 nav a:hover::after {
   width: 100%;
