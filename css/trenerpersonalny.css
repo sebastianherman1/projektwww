@@ -1,0 +1,15 @@
+main{
+    margin-top: 10rem;
+}
+h1{
+    text-align: center;
+}
+
+.mian 
+{
+    display: flex;
+    flex-direction: row;
+}
+.main2{
+    
+}
