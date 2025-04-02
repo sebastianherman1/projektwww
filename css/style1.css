@@ -52,6 +52,8 @@ main {
 .main{
   display: flex;
   flex-direction: column;
+  row-gap: 4rem;
+
 }
 
 .main2{
@@ -59,8 +61,10 @@ main {
   
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 2rem 2rem;
+  justify-content: center;
+  row-gap: 4rem;
+  column-gap: 4rem;
+  flex-wrap: wrap;
  
   
   

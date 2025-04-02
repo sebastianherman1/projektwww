@@ -4,6 +4,10 @@
     justify-content: space-around;
     padding: 8rem;
     gap: 8rem;
+    
+    @media (max-width:40rem){
+      flex-wrap: wrap; ;
+    }
   }
   
 
@@ -13,7 +17,8 @@
   }
 
   .message-box {
-    width: 28rem;  
+    width: 100%;
+    max-width: auto;  
     height: 150px;  
     resize: none;  
     border-radius: 5px; 
@@ -32,7 +37,7 @@ input{
 
 .form-container {
   
-  width: 100%;
+  width: 35rem;
   max-width: auto;  
   background-color: rgba(245, 245, 245, 1) ;  
   padding: 2rem; 
