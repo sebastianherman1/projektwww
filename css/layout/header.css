@@ -1,24 +1,25 @@
-/* Nagłówek (header) */
-#main-header {
+/* Nagłówek (main-header) */
+.main-header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 40px;
-  background-color: rgba(19, 50, 61, 0.785);
+  padding: 40px 50px;
   color: white;
   transition: background-color 0.3s ease, box-shadow 0.3s ease, padding 0.3s ease;
-  z-index: 999;
+  z-index: 2;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-/* Nagłówek po scrollu */
-header.scrolled {
-  background-color: #13323D;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.107);
-  padding: 10px 40px;
+.scrolled .main-header {
+  background-color: rgba(8, 20, 25, 0.87);
+  padding: 20px 60px;
+}
+
+header.scrolled nav {
+  font-size: 18px;
 }
 
 /* Logo */
@@ -30,33 +31,48 @@ header.scrolled {
 
 /* Logo po scrollu */
 header.scrolled .logo {
-  height: 40px;
+  height: 70px;
 }
 
 /* Nawigacja */
 nav {
   display: flex;
-  gap: 20px;
+  gap: 40px;
+  font-size: 20px;
 }
 
 /* Linki w menu */
 nav a {
-  text-decoration: none;
-  color: red;
+  text-decoration: none; /* Zbędne powtórzenie usunięte */
   font-weight: 500;
-  transition: all 0.2s ease;
   position: relative;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
 /* Efekt najechania */
 nav a:hover {
   transform: scale(1.2);
-  text-decoration: underline;
-  color: white;
+  color: #D32F2F;
 }
 
 /* Aktywna podstrona */
 nav a.active {
-  color: white;
+  color: #D32F2F;
   font-weight: 700;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background-color: #D32F2F;
+  transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
 }
