@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 8rem;
-    gap: 8rem;
+    padding: 4rem;
+    gap: 4rem;
     
     @media (max-width:40rem){
       flex-wrap: wrap; ;
@@ -13,8 +13,9 @@
 
 
   .main3kontakt{
-    margin-bottom: 5rem;
+    
     white-space: pre-line;
+    line-height: 1;
   }
 
   .houers-open{
@@ -42,13 +43,15 @@ input{
 
 .form-container {
   
-  width: 35rem;
+  width: 36rem;
+
   max-width: auto;  
   background-color: rgba(245, 245, 245, 1) ;  
   padding: 2rem; 
   border-radius: 8px;  
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
 }
+
 
 form h3 {
   text-align: center;
@@ -96,4 +99,20 @@ button:hover {
 
 .required{
   color: red;
+}
+
+
+@media (max-width: 1400px){
+  .form-container{
+    width: auto;
+  }
+}
+
+@media (max-width: 1200px){
+  #mainkontakt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Wyśrodkowanie w pionie */
+    align-items: center; /* Wyśrodkowanie w poziomie */
+  }
 }
