@@ -1,0 +1,101 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.main2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem ;
+    
+}
+.main3{
+    text-align: center;
+    white-space: pre-line;
+}
+
+.mainh2{
+    color: #D32F2F;
+    margin-bottom: -1rem;
+}
+
+.button1{
+    margin-top: 2rem;
+    margin-right: 18rem;
+    color: white;
+    margin-left: auto;
+    padding: 5px 20px 5px 20px;
+    border-style: none;
+    background-color: #D32F2F;
+    border-radius: 10px;
+}
+
+.button1:hover{
+    scale: 1.2;
+}
+
+.button2{
+    margin-top: 2rem;
+    ;
+    color: white;
+    
+    padding: 0.5rem 6rem 0.5rem 6rem;
+    border-style: none;
+    background-color: #D32F2F;
+    border-radius: 10px;
+}
+.button2:hover{
+    scale: 1.2;
+}
+
+.main2 pngmariusz{
+    width: 100%; /* Dopasowanie do szerokości */
+    height: auto; /* Zachowanie proporcji */
+}
+
+.main4{
+    display: flex;
+    flex-direction: row ;
+    text-align: center;
+    white-space: pre-line;
+    column-gap: 2rem;
+    flex-wrap: wrap;
+    
+
+}
+.main5{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    
+}
+.main6{
+    text-align: center;
+    max-width: 32rem;
+    height: 24rem;
+    
+}
+
+ul{
+    text-align: left;
+    color: #D32F2F;
+    margin-left: 2rem
+     ;
+}
+
+.pchange{
+    margin-top: -2rem;
+}
+
+
+
+ul {
+    padding: 0;
+    margin-left: 2rem;
+    list-style: none; 
+    color: #D32F2F;
+}
+
+ul li::before {
+    content: "💪 ";   
+}

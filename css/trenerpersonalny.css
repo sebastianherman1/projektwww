@@ -11,27 +11,68 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem 2rem;
     
 }
 .main2trener{
     
     display: flex;
     flex-direction: column;
-    
-}
-.main3trener{
+    width: 32rem;
     background-color: rgba(245, 245, 245, 1) ;
-    display: flex;
-    justify-content: center;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
-    padding: 3rem 3rem;
+    padding: 2rem 2rem;
+    justify-content: center;
+    
+    
+}
+h3 {
+    margin-bottom: 2rem; 
+    text-align: center;
     
 }
 
-.pngtrener{
-    height: 12rem;
+.image-container {
+    position: relative; 
+    overflow: hidden; 
 }
 
-.pngtrener:hover{
-    transform: scale(1.2);
+.pngtrener {
+    width: 100%; 
+    height: auto; 
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Przyciemnienie obrazka */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+
+
+.overlay-text {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.image-container:hover .overlay {
+    opacity: 1; /* Wyświetla overlay przy najechaniu */
+}
+
+
+.image-container:hover .pngtrener {
+    transform: scale(1.1); /* Powiększa obrazek przy najechaniu */
 }
