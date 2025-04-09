@@ -1,0 +1,61 @@
+.form-treningowa {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f8f8f8;
+    
+ 
+  }
+  
+  .form-treningowa h3 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 25px;
+   
+  }
+  
+ 
+  
+  .form-treningowa input,
+  .form-treningowa select,
+  .form-treningowa textarea {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
+    display: block;
+    resize: none;
+  }
+  
+  .form-treningowa input:focus,
+  .form-treningowa select:focus,
+  .form-treningowa textarea:focus {
+    border-color: #ff6600;
+    outline: none;
+  }
+  
+
+  .form-treningowa input[type="radio"] {
+    width: auto;
+    margin-right: 8px;
+  }
+  
+  .form-treningowa button {
+    background-color: #ff6600;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .form-treningowa button:hover {
+    background-color: #e65c00;
+  }
+  
