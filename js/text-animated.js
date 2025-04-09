@@ -28,3 +28,22 @@ function typeText() {
 }
 
 window.addEventListener('load', typeText);
+
+
+const carousel = document.getElementById('carousel');
+let currentIndex = 0;
+
+function showSlide(index) {
+  const width = carousel.clientWidth;
+  carousel.scrollTo({ left: width * index, behavior: 'smooth' });
+}
+
+function prev() {
+  currentIndex = (currentIndex - 1 + 3) % 3;
+  showSlide(currentIndex);
+}
+
+function next() {
+  currentIndex = (currentIndex + 1) % 3;
+  showSlide(currentIndex);
+}
