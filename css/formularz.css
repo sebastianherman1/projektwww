@@ -25,8 +25,7 @@
     border: 1px solid #ccc;
     border-radius: 10px;
     transition: border-color 0.3s ease;
-    display: block;
-    resize: none;
+    
   }
   
   .form-treningowa input:focus,
@@ -43,7 +42,7 @@
   }
   
   .form-treningowa button {
-    background-color: #ff6600;
+    background-color: #D32F2F;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -53,9 +52,12 @@
     transition: background-color 0.3s ease;
     display: block;
     margin: 0 auto;
+    
   }
   
   .form-treningowa button:hover {
-    background-color: #e65c00;
+    background-color: red;
+    scale: 1.2;
   }
   
+ 
