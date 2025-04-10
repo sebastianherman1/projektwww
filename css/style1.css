@@ -114,26 +114,16 @@ main {
 
 
 .testimonial-section {
-  max-width: 1000px;
-  margin: 60px auto;
+ 
   padding: 50px 30px;
   background: #1a1a1a;
-  border-radius: 20px;
+  
   box-shadow: 0 0 30px rgba(255, 0, 0, 0.15);
   position: relative;
   overflow: hidden;
 }
 
-.testimonial-section::before {
-  content: "";
-  position: absolute;
-  top: -40px;
-  right: -40px;
-  width: 150px;
-  height: 150px;
-  background: radial-gradient(circle, rgba(255,0,0,0.6) 0%, transparent 70%);
-  z-index: 0;
-}
+
 
 .testimonial-container {
   display: flex;
@@ -176,20 +166,20 @@ main {
 .arrows {
   position: absolute;
   top: 50%;
-  width: 100%;
+  width: 96%;
   display: flex;
   justify-content: space-between;
   transform: translateY(-50%);
   z-index: 2;
-  padding: 0 20px;
+  
 }
 
 .arrow {
   background: #ff4747;
   color: white;
   border: none;
-  padding: 12px 18px;
-  font-size: 22px;
+  padding: 0.5rem;
+  font-size: 0.5rem;
   border-radius: 50%;
   cursor: pointer;
   transition: background 0.3s, transform 0.2s;
