@@ -1,5 +1,5 @@
 #footermain{
-    background-color: #f6d58e00;
+    background-color: rgba(12, 29, 37, 0.87);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -35,4 +35,8 @@
   .footer1 img{
     width: 18rem;
     
+  }
+
+  .footer1 h3{
+    color: white;
   }

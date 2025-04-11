@@ -53,12 +53,12 @@ nav a {
 /* Efekt najechania */
 nav a:hover {
   transform: scale(1.2);
-  color: #D32F2F;
+  color: #F6D58E;
 }
 
 /* Aktywna podstrona */
 nav a.active {
-  color: #D32F2F;
+  color: #F6D58E;
   font-weight: 700;
 }
 
@@ -69,7 +69,7 @@ nav a::after {
   left: 0;
   height: 2px;
   width: 0;
-  background-color: #D32F2F;
+  background-color: #F6D58E;
   transition: width 0.3s ease;
 }
 

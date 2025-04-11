@@ -65,11 +65,11 @@
   .price button{
     color: #F6D58E;
     margin-left: auto;
-    padding: 5px 20px 5px 20px;
+    padding: 1rem 4rem;
     border-style: solid;
     border-color: #F6D58E;
     border-radius: 10px;
-    background-color: #081419;
+    background-color: rgba(12, 29, 37, 0.87);
   }
   
   .price button:hover{
@@ -108,4 +108,9 @@
     opacity: 0.8;
     z-index: -1; /* Ustawiamy tło poniżej treści */
   }
+
+.headerh2{
+  color: white;
+  font-size: 2rem;
+}
 
