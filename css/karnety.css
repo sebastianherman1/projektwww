@@ -33,16 +33,13 @@
   
   .main3{
     width: 600px;
-    background-color: rgba(245, 245, 245, 1) ;
-    color: #13323D;
-    padding: 3rem 3rem ; 
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
-    
-    
-    
-    
-    
   
+    color: #F6D58E;
+    padding: 3rem 3rem ; 
+    border: 2px;
+    border-radius: 15px;
+    border-style: solid;
+    background-color: rgba(12, 29, 37, 0.87);
   
   }
   
@@ -66,17 +63,19 @@
   }
   
   .price button{
-    color: white;
+    color: #F6D58E;
     margin-left: auto;
     padding: 5px 20px 5px 20px;
-    border-style: none;
-    background-color: #D32F2F;
+    border-style: solid;
+    border-color: #F6D58E;
     border-radius: 10px;
-    
+    background-color: #081419;
   }
   
   .price button:hover{
-    scale: 1.2;
+    scale: 1.1;
+    background-color: #F6D58E;
+    color: #081419;
   }
 
   h2{

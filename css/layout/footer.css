@@ -1,5 +1,5 @@
 #footermain{
-    background-color: #13323D;
+    background-color: #f6d58e00;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -9,12 +9,13 @@
   .footer1{
     width: 20rem;
     padding: 20px;
-    color: #D32F2F;
+    color: #F6D58E;
+   
   }
   
   .footer1 a{
     text-decoration: none;
-    color: #D32F2F;
+    color: #F6D58E;
     font-weight: 500;
     transition: all 0.2s ease;
     position: relative;

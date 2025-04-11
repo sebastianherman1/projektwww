@@ -18,12 +18,13 @@
 
 body {
   font-family: montserrat;
-  color: #13323D;
+  color: #F6D58E;
   height: 30vh;
   background-size: cover; 
   position: relative;
   padding: 0;
   margin: 0;
+  background-color: #081419;
   
   
 }
