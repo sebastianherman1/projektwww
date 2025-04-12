@@ -43,21 +43,29 @@ input{
 
 .form-container {
   
-  width: 36rem;
-
-  max-width: auto;  
-  background-color: rgba(245, 245, 245, 1) ;  
+ 
+  min-width: 36rem;
+  max-width: 48rem;  
+  background-color: rgba(12, 29, 37, 0.87) ;  
   padding: 2rem; 
   border-radius: 8px;  
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+  border-style: solid;
 }
 
-
+h3{
+  color: white;
+}
+a{
+  color: #F6D58E;
+}
+a:hover{
+  color: white;
+}
 form h3 {
   text-align: center;
   font-size: 24px;
   margin-bottom: 20px;
-  color: #13323D;
+  color: white;
   
 }
 
@@ -65,7 +73,7 @@ form h3 {
 label {
   font-weight: bold;
   margin-top: 10px;      
-  color: #13323D;
+  color: #F6D58E;
 }
 
 
@@ -74,7 +82,7 @@ input, textarea {
   padding: 10px;
   margin-top: 5px; 
   margin-bottom: 10px; 
-  border: 1px solid #ccc; 
+  border: 1px solid #F6D58E; 
   border-radius: 5px;  
 
 }
@@ -83,9 +91,10 @@ input, textarea {
 button {
   width: 60%;
   padding: 12px;
-  background-color: #D32F2F;
-  color: white;
-  border: none;
+  background-color: rgba(12, 29, 37, 0.87);
+  color: #F6D58E;
+  border-style: solid;
+  border-color: #F6D58E;
   border-radius: 20px;
   font-size: 16px;
   cursor: pointer;
@@ -93,8 +102,9 @@ button {
 }
 
 button:hover {
-  background-color: #962020;
   scale: 1.1;
+  background-color: #F6D58E;
+    color: #081419;
 }
 
 .required{
@@ -141,4 +151,25 @@ button:hover {
     justify-content: center; /* Wyśrodkowanie w pionie */
     align-items: center; /* Wyśrodkowanie w poziomie */
   }
+}
+
+
+input[type="text"], 
+input[type="email"], 
+input[type="tel"], 
+textarea {
+  background-color: rgba(12, 29, 37, 0.87);  
+  padding: 10px;  
+  border-radius: 5px;  
+  border: 1px solid #F6D58E;  
+}
+
+
+input[type="text"]:focus, 
+input[type="email"]:focus, 
+input[type="tel"]:focus, 
+textarea:focus {
+  background-color: #F6D58E;  
+  border: none;
+  color: rgba(12, 29, 37, 0.87);
 }
