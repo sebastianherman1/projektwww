@@ -95,16 +95,21 @@ main {
 
 .button2{
   margin-top: 2rem;
-  ;
-  color: white;
   
-  padding: 0.5rem 6rem 0.5rem 6rem;
-  border-style: none;
-  background-color: #D32F2F;
+  color: #F6D58E;
+  
+  padding: 1rem 8rem;
+  
+  background-color: rgba(12, 29, 37, 0.87);
   border-radius: 10px;
+  border-style: none;
+  font-weight: 200;
+  
 }
 .button2:hover{
   scale: 1.2;
+  background-color:#F6D58E;
+  color: rgba(12, 29, 37, 0.87);
 }
 
 

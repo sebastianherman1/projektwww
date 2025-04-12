@@ -15,38 +15,29 @@
 }
 
 .mainh2{
-    color: #D32F2F;
+    color: white;
     margin-bottom: -1rem;
 }
 
 .button1{
     margin-top: 2rem;
     margin-right: 18rem;
-    color: white;
+    color: #F6D58E;
     margin-left: auto;
-    padding: 5px 20px 5px 20px;
-    border-style: none;
-    background-color: #D32F2F;
+    padding: 5px 30px;
+   
+    background-color: rgba(12, 29, 37, 0.87);
     border-radius: 10px;
+    border-style: solid;
+    border-color: #F6D58E;
 }
 
 .button1:hover{
     scale: 1.2;
+    background-color:#F6D58E;
+    color: rgba(12, 29, 37, 0.87);
 }
 
-.button2{
-    margin-top: 2rem;
-    ;
-    color: white;
-    
-    padding: 0.5rem 6rem 0.5rem 6rem;
-    border-style: none;
-    background-color: #D32F2F;
-    border-radius: 10px;
-}
-.button2:hover{
-    scale: 1.2;
-}
 
 .main2 pngmariusz{
     width: 100%; /* Dopasowanie do szerokości */
@@ -78,7 +69,7 @@
 
 ul{
     text-align: left;
-    color: #D32F2F;
+    
     margin-left: 2rem
      ;
 }
@@ -93,7 +84,7 @@ ul {
     padding: 0;
     margin-left: 2rem;
     list-style: none; 
-    color: #D32F2F;
+    color: white;
 }
 
 ul li::before {
