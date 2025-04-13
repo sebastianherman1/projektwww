@@ -2,7 +2,9 @@
     max-width: 600px;
     margin: 40px auto;
     padding: 30px;
-    background-color: #f8f8f8;
+    background-color: rgba(12, 29, 37, 0.87);
+    border-style: solid;
+    border-radius: 2rem;
     
  
   }
@@ -31,7 +33,7 @@
   .form-treningowa input:focus,
   .form-treningowa select:focus,
   .form-treningowa textarea:focus {
-    border-color: #ff6600;
+    border-color: #F6D58E;
     outline: none;
   }
   
@@ -42,21 +44,34 @@
   }
   
   .form-treningowa button {
-    background-color: #D32F2F;
-    color: white;
+    background-color: rgba(12, 29, 37, 0.87);
+    color: #F6D58E;
     padding: 12px 20px;
-    border: none;
+    border-style: solid;
+    border-color: #F6D58E;
     border-radius: 10px;
     font-size: 16px;
-    
+    cursor: pointer;
     transition: background-color 0.3s ease;
     display: block;
     margin: 0 auto;
     
   }
+  button {
+    width: 60%;
+    padding: 12px;
+    background-color: rgba(12, 29, 37, 0.87);
+    color: #F6D58E;
+    border-style: solid;
+    border-color: #F6D58E;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
   
   .form-treningowa button:hover {
-    background-color: red;
+    background-color: #F6D58E;
     scale: 1.2;
   }
   

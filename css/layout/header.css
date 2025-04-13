@@ -76,3 +76,50 @@ nav a::after {
 nav a:hover::after {
   width: 100%;
 }
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+ 
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(8, 20, 25, 0.95);
+  min-width: 200px;
+  z-index: 10;
+  padding: 10px 0;
+   
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+  transition: background 0.2s, color 0.2s;
+}
+
+.dropdown-content a:hover {
+  background-color: #F6D58E;
+  color: #081419;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.point {
+  margin-left: 5px;
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+
+.dropdown:hover .point {
+  transform: rotate(180deg);
+}
+

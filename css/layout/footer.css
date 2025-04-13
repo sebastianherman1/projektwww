@@ -4,6 +4,14 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 20px;
+    flex-wrap: wrap;
+    gap: 8rem;
+  }
+  @media (max-width: 1280px) {
+    #footermain {
+      
+      justify-content: center;
+    }
   }
   
   .footer1{
