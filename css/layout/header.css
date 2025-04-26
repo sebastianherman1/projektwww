@@ -4,8 +4,10 @@
   top: 0;
   left: 0;
   width: 100%;
-  padding: 40px 50px;
+  padding: 20px 60px; /* Zmienione od razu na zmniejszone */
   color: white;
+  background-color: rgba(8, 20, 25, 1);
+ 
   transition: background-color 0.3s ease, box-shadow 0.3s ease, padding 0.3s ease;
   z-index: 2;
   display: flex;
@@ -13,37 +15,23 @@
   justify-content: space-between;
 }
 
-.scrolled .main-header {
-  background-color: rgba(8, 20, 25, 0.87);
-  padding: 20px 60px;
-}
-
-header.scrolled nav {
-  font-size: 18px;
-}
-
 /* Logo */
 .logo {
-  height: 8rem;
+  height: 70px; /* Od razu mniejsze logo */
   transition: height 0.3s ease;
   margin-left: 10px;
-}
-
-/* Logo po scrollu */
-header.scrolled .logo {
-  height: 70px;
 }
 
 /* Nawigacja */
 nav {
   display: flex;
   gap: 40px;
-  font-size: 20px;
+  font-size: 18px; /* Zmniejszony font */
 }
 
 /* Linki w menu */
 nav a {
-  text-decoration: none; /* Zbędne powtórzenie usunięte */
+  text-decoration: none;
   font-weight: 500;
   position: relative;
   color: white;
@@ -77,21 +65,19 @@ nav a:hover::after {
   width: 100%;
 }
 
-
+/* Dropdown */
 .dropdown {
   position: relative;
   display: inline-block;
- 
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgba(8, 20, 25, 0.95);
+  background-color: rgba(8, 20, 25, 1);
   min-width: 200px;
   z-index: 10;
   padding: 10px 0;
-   
 }
 
 .dropdown-content a {
@@ -107,7 +93,6 @@ nav a:hover::after {
   color: #081419;
 }
 
-
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -118,8 +103,6 @@ nav a:hover::after {
   display: inline-block;
 }
 
-
 .dropdown:hover .point {
   transform: rotate(180deg);
 }
-

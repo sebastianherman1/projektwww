@@ -80,7 +80,7 @@ main {
   color: white;
 }
 #iron-corre-text {
-  font-size: 3rem;
+  font-size: 4rem;
   color: #F6D58E;
 }
 
@@ -121,9 +121,9 @@ main {
 .testimonial-section {
  
   padding: 50px 30px;
-  background: #1a1a1a;
   
-  box-shadow: 0 0 30px rgba(255, 0, 0, 0.15);
+  
+  
   position: relative;
   overflow: hidden;
 }
@@ -148,7 +148,7 @@ main {
 .testimonial p {
   font-size: 20px;
   line-height: 1.8;
-  color: #ddd;
+  color: white;
   margin: 0;
   font-style: italic;
 }
@@ -157,13 +157,13 @@ main {
   margin-top: 20px;
   font-weight: bold;
   font-size: 18px;
-  color: #ff4747;
+  color: #F6D58E;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 .stars {
-  color: #FFD700;
+  color: #F6D58E;
   font-size: 24px;
   margin-bottom: 15px;
 }
@@ -180,11 +180,11 @@ main {
 }
 
 .arrow {
-  background: #ff4747;
-  color: white;
-  border: none;
+  color: #F6D58E;
+    border-style: solid;
+    border-color: #F6D58E;
   padding: 0.5rem;
-  font-size: 0.5rem;
+ 
   border-radius: 50%;
   cursor: pointer;
   transition: background 0.3s, transform 0.2s;
@@ -192,6 +192,7 @@ main {
 }
 
 .arrow:hover {
-  background: #ff1e1e;
+  background-color: #F6D58E;
+  color: rgba(12, 29, 37, 0.87);;
   transform: scale(1.1);
 }
