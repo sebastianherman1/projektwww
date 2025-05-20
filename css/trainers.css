@@ -94,7 +94,7 @@ ul li::before {
 .main7{
    text-align: center;
    padding: 6rem 25rem;
-   background-image: url('/projektwww/images/background.jpg') ;
+   background-image: url(../images/background.jpg);
    background-size: cover;
    color: white;
 }

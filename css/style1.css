@@ -41,7 +41,7 @@ main {
   z-index: 1;
   height: 100vh;
   width: 100%;
-  background-image: url('/projektwww/images/background.jpg');
+ background-image: url(../images/background.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
