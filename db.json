@@ -1,0 +1,14 @@
+{
+  "zgloszenia": [],
+  "wiadomosciKontaktowe": [
+    {
+      "id": "2d8f",
+      "imie": "aaa",
+      "nazwisko": "aa",
+      "telefon": "123123123",
+      "email": "aa@aa.pl",
+      "temat": "aa",
+      "wiadomosc": "aa"
+    }
+  ]
+}

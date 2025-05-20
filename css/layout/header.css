@@ -1,13 +1,10 @@
-/* Nagłówek (main-header) */
 .main-header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 60px; /* Zmienione od razu na zmniejszone */
+  padding: 40px 50px;
   color: white;
-  background-color: rgba(8, 20, 25, 1);
- 
   transition: background-color 0.3s ease, box-shadow 0.3s ease, padding 0.3s ease;
   z-index: 2;
   display: flex;
@@ -15,21 +12,34 @@
   justify-content: space-between;
 }
 
-/* Logo */
+.scrolled .main-header {
+  background-color: rgba(8, 20, 25, 0.87);
+  padding: 20px 60px;
+}
+
+header.scrolled nav {
+  font-size: 18px;
+}
+
 .logo {
-  height: 70px; /* Od razu mniejsze logo */
+  height: 8rem;
   transition: height 0.3s ease;
   margin-left: 10px;
 }
 
-/* Nawigacja */
+
+header.scrolled .logo {
+  height: 70px;
+}
+
+
 nav {
   display: flex;
   gap: 40px;
-  font-size: 18px; /* Zmniejszony font */
+  font-size: 20px;
 }
 
-/* Linki w menu */
+
 nav a {
   text-decoration: none;
   font-weight: 500;
@@ -38,13 +48,10 @@ nav a {
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
-/* Efekt najechania */
 nav a:hover {
-  transform: scale(1.2);
   color: #F6D58E;
 }
 
-/* Aktywna podstrona */
 nav a.active {
   color: #F6D58E;
   font-weight: 700;
@@ -65,7 +72,6 @@ nav a:hover::after {
   width: 100%;
 }
 
-/* Dropdown */
 .dropdown {
   position: relative;
   display: inline-block;

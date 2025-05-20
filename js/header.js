@@ -7,6 +7,3 @@ window.addEventListener('scroll', () => {
     mainHeader.classList.remove('scrolled');
   }
 });
-
-
-
