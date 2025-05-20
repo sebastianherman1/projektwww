@@ -54,14 +54,15 @@
         </div>
         <div class="main2kontakt">
             <div class="form-container">
-            <form>
+            <form id="kontakt-form">
                <h3>Napisz do nas:</h3>
               
-               <label for="name">Imię<span class="required">*</span></label>              
-               <input type="text" id="name" name="name" required>
-              
-               <label for="name">Nazwisko<span class="required">*</span></label>    
-               <input type="text" id="name" name="name" required>
+                <label for="first-name">Imię<span class="required">*</span></label>              
+                <input type="text" id="first-name" name="first-name" required>
+
+                <label for="last-name">Nazwisko<span class="required">*</span></label>    
+                <input type="text" id="last-name" name="last-name" required>
+
               
                 <label for="phone">Numer telefonu</label> 
                 <input type="tel" id="phone" name="phone" pattern="[0-9]{9}" placeholder="+48 123 456 789">
@@ -88,7 +89,7 @@
 
  <!-- Auto footer -->
   <footer></footer>
-
+    <script src="js/kontakt-formularz.js"></script>
 </body>
 
 

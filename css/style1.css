@@ -41,7 +41,7 @@ main {
   z-index: 1;
   height: 100vh;
   width: 100%;
-  background-image: url('/images/background.jpg');
+  background-image: url('/projektwww/images/background.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -88,25 +88,25 @@ main {
 
 
 .main-glowna {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 6rem 25rem;
   background-image: url(../images/background.jpg);
   background-size: cover;
   color: white;
+  height: 500px;
 }
 
 .button2 {
   margin-top: 2rem;
   max-width: 12rem;
   color: #F6D58E;
-
   padding: 1rem;
-
   background-color: rgba(12, 29, 37, 0.87);
   border-radius: 10px;
-
   font-weight: 200;
-
 }
 
 .button2:hover {
@@ -115,18 +115,10 @@ main {
   color: rgba(12, 29, 37, 0.87);
 }
 
-
-
-
-
-
-
 .testimonial-section {
 
   padding: 50px 30px;
   background: #1a1a1a;
-  
-  box-shadow: 0 0 30px rgba(255, 0, 0, 0.15);
   position: relative;
   overflow: hidden;
 }
@@ -138,7 +130,12 @@ main {
   overflow: hidden;
   scroll-behavior: smooth;
   position: relative;
-  z-index: 1;
+  z-index: 1;  
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: nowrap;
 }
 
 .testimonial {
@@ -171,31 +168,172 @@ main {
   margin-bottom: 15px;
 }
 
-.arrows {
-  position: absolute;
-  top: 50%;
-  width: 96%;
-  display: flex;
-  justify-content: space-between;
-  transform: translateY(-50%);
-  z-index: 2;
-
+.arrows-left,
+.arrows-right {
+  flex: 0 0 auto;
 }
 
 .arrow {
   color: #F6D58E;
-    border-style: solid;
-    border-color: #F6D58E;
+  border: 2px solid #F6D58E;
   padding: 0.5rem;
- 
   border-radius: 50%;
   cursor: pointer;
   transition: background 0.3s, transform 0.2s;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  background: transparent;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  transition: 0.3s ease;
 }
 
 .arrow:hover {
   background-color: #F6D58E;
-  color: rgba(12, 29, 37, 0.87);;
+  color: rgba(12, 29, 37, 0.87);
   transform: scale(1.1);
+  color: #081419;
+}
+
+.testimonial-slide {
+  flex: 1 1 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.testimonial {
+  max-width: 600px;
+  text-align: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+
+.testimonial-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.testimonial-carousel {
+  max-width: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.testimonial {
+  display: none;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+}
+
+.testimonial.active {
+  display: block;
+}
+
+.arrow {
+  font-size: 2rem;
+  border: 2px solid #F6D58E;
+  color: #F6D58E;
+  border-radius: 50%;
+  background: transparent;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.arrow:hover {
+  background: #F6D58E;
+  color: #081419;
+}
+
+@media (max-width: 1200px) {
+  .main-glowna {
+    padding: 4rem 10rem;
+  }
+
+  .typing-container {
+    font-size: 2.5rem;
+  }
+
+  #iron-corre-text {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .main-glowna {
+    padding: 3rem 5rem;
+  }
+
+  .testimonial p {
+    font-size: 18px;
+  }
+
+  .button2 {
+    max-width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-glowna {
+    padding: 2rem 2rem;
+  }
+
+  .typing-container {
+    font-size: 2rem;
+  }
+
+  #iron-corre-text {
+    font-size: 2.5rem;
+  }
+
+  .testimonial {
+    padding: 15px 20px;
+  }
+
+  .arrows {
+    width: 100%;
+  }
+
+  .arrow {
+    padding: 0.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-glowna {
+    padding: 2rem 1rem;
+  }
+
+  .typing-container {
+    font-size: 1.5rem;
+  }
+
+  #iron-corre-text {
+    font-size: 2rem;
+  }
+
+  .button2 {
+    padding: 0.7rem;
+    font-size: 0.9rem;
+  }
+
+  .testimonial p {
+    font-size: 16px;
+  }
+
+  .testimonial .author {
+    font-size: 16px;
+  }
+
+  .stars {
+    font-size: 20px;
+  }
 }

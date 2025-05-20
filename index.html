@@ -7,6 +7,7 @@
   <script src="js/text-animated.js" defer></script>
   <link rel="stylesheet" href="css/formularz.css">
   <script src="js/kontakt-popup.js" defer></script>
+  
 
   <title>Header z menu i logo</title>
 
@@ -31,43 +32,42 @@
 
   <main>
 
-    <section class="testimonial-section">
-      <div class="testimonial-container" id="carousel">
-        <div class="testimonial">
-          <div class="stars">★★★★★</div>
-          <p>„Najlepsza siłownia w mieście! Profesjonalni trenerzy i super atmosfera.”</p>
-          <div class="author">– Anna K.</div>
-        </div>
-        <div class="testimonial">
-          <div class="stars">★★★★★</div>
-          <p>„W 3 miesiące zrzuciłem 12 kg dzięki treningom personalnym i diecie od trenera Łukasza!”</p>
-          <div class="author">– Michał D.</div>
-        </div>
-        <div class="testimonial">
-          <div class="stars">★★★★☆</div>
-          <p>„1234567891234567891234567891234567890110987654321987654321987654321987654321”</p>
-          <div class="author">– Kamil P.</div>
-        </div>
-      
+<section class="testimonial-section">
+  <div class="testimonial-wrapper">
+    <button class="arrow left" onclick="prev()">←</button>
+
+    <div class="testimonial-carousel" id="carousel">
+      <div class="testimonial active">
+        <div class="stars">★★★★★</div>
+        <p>„Opinia 1”</p>
+        <div class="author">– Anna K.</div>
       </div>
-  
-      <div class="arrows">
-        <button class="arrow" onclick="prev()">←</button>
-        <button class="arrow" onclick="next()">→</button>
+      <div class="testimonial">
+        <div class="stars">★★★★★</div>
+        <p>„Opinia 2”</p>
+        <div class="author">– Michał D.</div>
       </div>
-    </section>
+      <div class="testimonial">
+        <div class="stars">★★★★☆</div>
+        <p>„Opinia 3”</p>
+        <div class="author">– Kamil P.</div>
+      </div>
+    </div>
+
+    <button class="arrow right" onclick="next()">→</button>
+  </div>
+</section>
 
 
 
 
 
     <div class="main-glowna">
-      <h3>Skontaktuj się i zacznij trening! </h3>
+      <h3>Skontaktuj się i zacznij trening!</h3>
       <p>
         Nie czekaj – siła nie bierze się znikąd! Umów się na trening i rozpocznij swoją przygodę ze sportami siłowymi pod moim okiem. Razem osiągniemy Twoje cele!
-      
       </p>
-      <button class="button2" onclick="loadPopup()">  Skontaktuj się</button>
+      <button class="button2" onclick="loadPopup()">Skontaktuj się</button>
     </div>
   </main>
    

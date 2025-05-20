@@ -27,8 +27,8 @@
     max-width: auto;  
     height: 150px;  
     resize: none;  
-    border-radius: 5px; 
-    font-size: 30px;
+    border-radius: 5px;
+    color: #F6D58E;
 }
 
 input{
@@ -83,8 +83,8 @@ input, textarea {
   margin-top: 5px; 
   margin-bottom: 10px; 
   border: 1px solid #F6D58E; 
-  border-radius: 5px;  
-
+  border-radius: 5px;
+  color: #F6D58E;
 }
 
 
@@ -117,7 +117,7 @@ button:hover {
   z-index: 1;
   height: 60vh;
   width: 100%;
-  background-image: url('/images/background.jpg');
+  background-image: url('/projektwww/images/background.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
