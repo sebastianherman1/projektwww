@@ -10,6 +10,7 @@ table {
   .tablecenter{
     display: flex;
     justify-content: center;
+    padding: 4rem;
     
   }
   @media (max-width: 1200px) {
@@ -69,6 +70,8 @@ table {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 6rem;
+    text-align: center;
   }
   
   .hero-background-grafik::before {

@@ -94,6 +94,8 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 6rem;
+    text-align: center;
   }
   
   .hero-background-trenerzy::before {
