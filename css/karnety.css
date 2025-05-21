@@ -41,7 +41,12 @@
     background-color: rgba(12, 29, 37, 0.87);
   
   }
-  
+  @media (max-width: 768px) {
+    .main3
+    {
+      min-width: 0px;
+    }
+  }
   .main3 h2{
     text-align: left;
   }
@@ -60,6 +65,16 @@
     align-items: flex-end;
     margin-top: 4rem;
   }
+
+  @media (max-width: 768px) {
+    .price
+    {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+  }
   
   .price button{
     color: #F6D58E;
@@ -69,6 +84,13 @@
     border-color: #F6D58E;
     border-radius: 10px;
     background-color: rgba(12, 29, 37, 0.87);
+  }
+
+  @media (max-width: 768px) {
+    .price button
+    {
+      margin-left: 0px;
+    }
   }
   
   .price button:hover{
@@ -83,9 +105,11 @@
  
 
   .hero-background-karnety {
+    padding: 2rem;
+    text-align: center;
     position: relative;
     z-index: 1;
-    height: 60vh;
+    height: 600px;
     width: 100%;
     background-image: url(../images/background.jpg);
     background-size: cover;

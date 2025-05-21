@@ -35,15 +35,9 @@ input{
   width: 15rem;
 }
 
-.form-container{
+.form-container {
   display: flex;
   flex-direction: column;
-}
-
-
-.form-container {
-  
- 
   min-width: 36rem;
   max-width: 48rem;  
   background-color: rgba(12, 29, 37, 0.87) ;  
@@ -113,9 +107,11 @@ button:hover {
 }
 
 .hero-background-kontakt {
+  padding: 2rem;
+  text-align: center;
   position: relative;
   z-index: 1;
-  height: 60vh;
+  height: 600px;
   width: 100%;
   background-image: url(../images/background.jpg);
   background-size: cover;
@@ -146,6 +142,13 @@ button:hover {
 }
 
 @media (max-width: 1200px){
+  iframe {
+    display: none;
+  }
+
+  .form-container{
+    min-width: 75vw;
+  }
   #mainkontakt{
     display: flex;
     flex-direction: column;
@@ -175,3 +178,4 @@ textarea:focus {
   outline: none;
   color: rgba(12, 29, 37, 0.87);
 }
+

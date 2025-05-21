@@ -81,9 +81,11 @@ h3 {
 
 
 .hero-background-trenerzy {
+    padding: 2rem;
+    text-align: center;
     position: relative;
     z-index: 1;
-    height: 60vh;
+    height: 600px;
     width: 100%;
     background-image: url(../images/background.jpg);
     background-size: cover;
