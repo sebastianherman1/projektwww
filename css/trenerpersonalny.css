@@ -38,6 +38,8 @@ h3 {
 .image-container {
     position: relative; 
     overflow: hidden; 
+    max-width: 38rem;
+    max-height: 18rem;
 }
 
 .pngtrener {
