@@ -109,7 +109,7 @@ ul li::before {
 .hero-background-trainers {
     position: relative;
     z-index: 1;
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: url(../images/background.jpg);
     background-size: cover;
@@ -148,3 +148,26 @@ ul li::before {
     font-size: clamp(4px, 2vw, 18px);
   }
 
+.breadcrumbs {
+  margin-top: 10rem;
+  margin: 1.5rem 0 1rem 2rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #F6D58E;
+  background: none;
+}
+
+.breadcrumbs a {
+  color: #F6D58E;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.breadcrumbs a:hover {
+  color: #fff;
+}
+
+.breadcrumbs span {
+  color: #fff;
+  font-weight: bold;
+}

@@ -15,3 +15,19 @@ function loadPopup() {
       }
     });
 }
+
+function closePopup() {
+  document.getElementById('popupContainer').style.display = 'none';
+  document.getElementById('popupOverlay').style.display = 'none';
+  document.body.style.overflow = '';
+}
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  const popup = document.getElementById('popupContainer');
+  if (popup) {
+    popup.addEventListener('click', function(event) {
+      event.stopPropagation();
+    });
+  }
+});

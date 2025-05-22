@@ -1,4 +1,14 @@
 {
   "zgloszenia": [],
-  "wiadomosciKontaktowe": []
+  "wiadomosciKontaktowe": [
+    {
+      "id": "b9ec",
+      "imie": "marian",
+      "nazwisko": "pazdzioch",
+      "telefon": "123456789",
+      "email": "gigakox@wp.pl",
+      "temat": "temat",
+      "wiadomosc": "trest"
+    }
+  ]
 }
