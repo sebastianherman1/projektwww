@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (typeof initMobileMenu === 'function') {
         initMobileMenu();
       } else {
-        console.warn('initMobileMenu() nie jest zdefiniowane — upewnij się, że header.js jest załadowane wcześniej.');
+        console.warn('initMobileMenu() nie jest zdefiniowane');
       }
     })
     .catch(err => console.error('Nie udało się załadować headera:', err));

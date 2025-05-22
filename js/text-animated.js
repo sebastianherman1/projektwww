@@ -29,7 +29,7 @@ function typeText() {
 
 window.addEventListener('load', typeText);
 
-
+/* Karuzela opinii */
 function showSlide(index) {
   const width = carousel.clientWidth;
   carousel.scrollTo({ left: width * index, behavior: 'smooth' });

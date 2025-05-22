@@ -29,7 +29,6 @@ body {
 
 }
 
-/* Główna zawartość */
 main {
   margin-top: 10rem;
   padding: 0;
@@ -61,10 +60,8 @@ main {
   background-image: linear-gradient(160deg, rgba(11, 28, 35, 0.785) 0%, rgba(0, 0, 0, 0.81) 100%);
   opacity: 0.8;
   z-index: -1;
-  /* Ustawiamy tło poniżej treści */
 }
 
-/* Kontener na tekst */
 .typing-container {
   text-align: center;
   color: white;
@@ -72,7 +69,6 @@ main {
   font-weight: bold;
 }
 
-/* Stylizacja tekstu */
 #typewriter-text {
   display: inline-block;
   border-right: 2px solid #fff;
